@@ -4,10 +4,10 @@ RNA Seq data analysis of the Buffalo Genome NDRI- NIPGR collaboration project
 Project Overview:
 This project focuses on the RNA-Seq data analysis of embryonic stages of the buffalo genome in cloned and IVF individuals. The main objective is to identify differentially expressed genes (DEGs) which can help in understanding genetic expressions during different stages of development.
 
-Data
+Data:
 The data used in this analysis includes RNA-Seq count data from various stages of embryonic development. This data is read from CSV files containing gene count matrix and phenotypic information of the samples.
 
-Scripts and Analysis
+Scripts and Analysis:
 The analysis is performed using the R script deseq2_nipgr.R of the total gene_count_matrix.csv, which utilizes the DESeq2 package to perform differential expression analysis. The script processes the count data, performs normalization, and identifies significant DEGs based on adjusted p-values and log fold changes.
 
 Key steps in the script include:
